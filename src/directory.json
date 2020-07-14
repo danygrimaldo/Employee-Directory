@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dany Grimaldo",
+    "occupation": "Graphic Designer",
+    "location": "Atlanta, GA"
+  },
+  {
+    "id": 2,
+    "name": "America Juarez",
+    "occupation": "CEO",
+    "location": "Smyrna, GA"
+  },
+  {
+    "id": 3,
+    "name": "John Herman",
+    "occupation": "Web Developer",
+    "location": "Atlanta, GA"
+  },
+  {
+    "id": 4,
+    "name": "Charlotte Crowgey",
+    "occupation": "Human Resources",
+    "location": "Atlanta, GA"
+  },
+  {
+    "id": 5,
+    "name": "Nestor Velez",
+    "occupation": "Senior Accountant",
+    "location": "Atlanta, GA"
+  },
+  {
+    "id": 6,
+    "name": "Helen Kim",
+    "occupation": "CFO",
+    "location": "Atlanta"
+  },
+  {
+    "id": 7,
+    "name": "Lucas Taylor",
+    "occupation": "Sales Manager",
+    "location": "Atlanta, GA"
+  },
+  {
+    "id": 8,
+    "name": "Alyson Taylor",
+    "occupation": "Finance Manager",
+    "location": "Roswell, GA"
+  }
+]

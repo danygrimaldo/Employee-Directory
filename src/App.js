@@ -1,14 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Directory from "./pages/directory";
-// import logo from "./logo.svg";
+import directory from "./pages/directory";
+import Wrapper from "./components/Wrapper";
+import Navbar from "./components/Navbar";
 import "./App.css";
 
 function App() {
   return (
     <Router>
       <div>
-        <Route exact path="/" component={Directory} />
+        <Navbar />
+        <Wrapper>
+          <Route exact path="/" component={directory} />
+        </Wrapper>
       </div>
     </Router>
   );
