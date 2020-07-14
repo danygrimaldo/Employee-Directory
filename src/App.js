@@ -5,7 +5,7 @@ import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div>
@@ -16,6 +16,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;
