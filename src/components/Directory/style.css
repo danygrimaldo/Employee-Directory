@@ -1,0 +1,33 @@
+.directory {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.directory::after {
+    content: "";
+    display: block;
+    opacity: .4;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+}
+
+.directory * {
+    position: relative;
+    z-index: 2;
+}
+
+.directory h1, .directory h2 {
+    color: white;
+}
+
+.directory h1 {
+    font-size: 60px;
+    padding-top: 140px;
+    margin-top: 0;
+}
