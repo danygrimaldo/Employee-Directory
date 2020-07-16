@@ -39,7 +39,7 @@ function TableDirectory() {
                 handleSort("name");
               }}
             >
-              Name
+              NAME
             </a>
           </th>
           <th>
@@ -49,7 +49,7 @@ function TableDirectory() {
                 handleSort("occupation");
               }}
             >
-              Occupation
+              OCCUPATION
             </a>
           </th>
           <th>
@@ -59,7 +59,7 @@ function TableDirectory() {
                 handleSort("location");
               }}
             >
-              Location
+              LOCATION
             </a>
           </th>
         </tr>
