@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import DirectoryTable from "../components/Table";
+import TableDirectory from "../components/Table";
 
 function Directory() {
   return (
@@ -15,7 +15,7 @@ function Directory() {
         </Row>
         <Row>
           <Col size="md-12">
-            <DirectoryTable />
+            <TableDirectory />
           </Col>
         </Row>
       </Container>

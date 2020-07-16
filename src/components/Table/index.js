@@ -11,13 +11,57 @@ function TableDirectory() {
     </tr>
   );
 
+  function handleSort(category) {
+    function compare(a, b) {
+      // Use toUpperCase() to ignore character casing
+      const categoryA = a[category].toUpperCase();
+      const categoryB = b[category].toUpperCase();
+      let comparison = 0;
+      if (categoryA > categoryB) {
+        comparison = 1;
+      } else if (categoryA < categoryB) {
+        comparison = -1;
+      }
+      return comparison;
+    }
+    employees.sort(compare);
+    console.log(employees);
+  }
+
   return (
     <Table striped bordered hover>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Occupation</th>
-          <th>Location</th>
+          <th>
+            <a
+              href="#"
+              onClick={() => {
+                handleSort("name");
+              }}
+            >
+              Name
+            </a>
+          </th>
+          <th>
+            <a
+              href="#"
+              onClick={() => {
+                handleSort("occupation");
+              }}
+            >
+              Occupation
+            </a>
+          </th>
+          <th>
+            <a
+              href="#"
+              onClick={() => {
+                handleSort("location");
+              }}
+            >
+              Location
+            </a>
+          </th>
         </tr>
       </thead>
       <tbody>{employees.map(renderDirectory)}</tbody>
