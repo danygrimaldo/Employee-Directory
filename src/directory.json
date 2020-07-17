@@ -3,48 +3,56 @@
     "id": 1,
     "name": "Dany Grimaldo",
     "occupation": "Graphic Designer",
-    "location": "Atlanta, GA"
+    "location": "Vinings, GA",
+    "email": "dgrimaldo@email.com"
   },
   {
     "id": 2,
     "name": "America Juarez",
     "occupation": "CEO",
-    "location": "Smyrna, GA"
+    "location": "Smyrna, GA",
+    "email": "ajuarez@email.com"
   },
   {
     "id": 3,
     "name": "John Herman",
     "occupation": "Web Developer",
-    "location": "Atlanta, GA"
+    "location": "Athens, GA",
+    "email": "jherman@email.com"
   },
   {
     "id": 4,
     "name": "Charlotte Crowgey",
     "occupation": "Human Resources",
-    "location": "Atlanta, GA"
+    "location": "Jonesboro, GA",
+    "email": "ccrowgey@email.com"
   },
   {
     "id": 5,
     "name": "Nestor Velez",
     "occupation": "Senior Accountant",
-    "location": "Atlanta, GA"
+    "location": "Atlanta, GA",
+    "email": "nvelez@email.com"
   },
   {
     "id": 6,
     "name": "Helen Kim",
     "occupation": "CFO",
-    "location": "Atlanta"
+    "location": "Gainesville, GA",
+    "email": "hkim@email.com"
   },
   {
     "id": 7,
     "name": "Lucas Taylor",
     "occupation": "Sales Manager",
-    "location": "Atlanta, GA"
+    "location": "Marietta, GA",
+    "email": "ltaylor@email.com"
   },
   {
     "id": 8,
     "name": "Alyson Taylor",
     "occupation": "Finance Manager",
-    "location": "Roswell, GA"
+    "location": "Roswell, GA",
+    "email": "ataylor@email.com"
   }
 ]

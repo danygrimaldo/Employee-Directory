@@ -11,7 +11,21 @@ function Navbar() {
       </Link>
       <div>
         <ul className="navbar-nav">
-          <li className="nav-item">
+          {/* <li className="nav-item">
+            <Link
+              to="/"
+              className={
+                window.location.pathname === "/" ||
+                window.location.pathname === "/search"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Search
+            </Link>
+          </li> */}
+
+          {/* <li className="nav-item">
             <Link
               to="/"
               className={
@@ -21,9 +35,9 @@ function Navbar() {
                   : "nav-link"
               }
             >
-              Employee Directory
+              Directory
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

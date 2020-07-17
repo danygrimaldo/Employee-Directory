@@ -8,6 +8,7 @@ function TableDirectory() {
       <td> {employee.name} </td>
       <td> {employee.occupation} </td>
       <td> {employee.location} </td>
+      <td> {employee.email} </td>
     </tr>
   );
 
@@ -60,6 +61,16 @@ function TableDirectory() {
               }}
             >
               LOCATION
+            </a>
+          </th>
+          <th>
+            <a
+              href="#"
+              onClick={() => {
+                handleSort("email");
+              }}
+            >
+              EMAIL
             </a>
           </th>
         </tr>
